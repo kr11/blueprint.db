@@ -177,7 +177,16 @@
         <div id="chat-log">
             <!-- Dialog content will be populated here by JS -->
 
-            <div id="message-1" class="chat-message bot"><div class="avatar">B</div><div class="message-content"><p>您好！我是 BlueprintDB。请提供您的业务场景和数据特征，我将为您构建一个高保真虚拟数据库。</p></div></div>
+            <div id="message-1" class="chat-message bot">
+                <div class="avatar">B</div>
+                <div class="message-content">
+                    <p>在应用上线前，即使您只有表结构（Schema）而无任何真实数据，我能帮助您预演查询性能。</p>
+                    <p>您只需通过自然语言向我描述您的数据规模、分布特征，或仅解释字段的业务含义。我会将这些知识转化为精确的统计信息模型，并在信息不足时向您提问。</p>
+                    <p>我基于 ByteBrain-VIDEX 虚拟引擎，只需模拟核心的数据分布（如直方图、NDV），便可驱动高质量的查询计划模拟。最终，您无需一行真实数据，即可构建出用于性能测试和优化的“虚拟数据库”。</p>
+                    <hr style="border-color: rgba(255,255,255,0.2); margin: 15px 0; border-style: solid; border-width: 1px 0 0 0;">
+                    <p>您好！我是 BlueprintDB。准备好开始了吗？</p>
+                </div>
+            </div>
 
             <div id="message-2" class="chat-message user">
                 <div class="avatar">U</div>
